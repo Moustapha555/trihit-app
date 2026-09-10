@@ -1,0 +1,26 @@
+{
+  "expo": {
+    "name": "Trihit",
+    "slug": "trihit",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.moustapha555.trihit"
+    },
+    "android": {
+      "package": "com.moustapha555.trihit",
+      "permissions": ["NOTIFICATIONS"]
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "color": "#34B166"
+        }
+      ]
+    ]
+  }
+}
